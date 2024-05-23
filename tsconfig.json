@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    // "baseUrl": ".", "paths": {},
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "checkJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // Picking lib and target for node v20: https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
+    "lib": ["ES2022"],
+    "target": "ES2022"
+  },
+  "include": ["src/**/*", "test/**/*"]
+}
